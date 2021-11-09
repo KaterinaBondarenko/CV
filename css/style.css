@@ -16,7 +16,6 @@ font-style: re;
 .nav,
 .hero {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center; 
 }
 
@@ -55,7 +54,7 @@ border-bottom: 1px solid var(--text-grey);
 
 .div-hero{
     display: inline-block;
-    /* margin: 50px; */
+    margin-left: 10px;
     width: 50%;
 }
 
@@ -82,5 +81,6 @@ border-bottom: 1px solid var(--text-grey);
     color: var(--text-black);
 }
 .img{
-    margin-left: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
