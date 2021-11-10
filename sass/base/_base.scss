@@ -1,9 +1,3 @@
-:root {
-  --text-black: #070707;
-  --text-grey: #828282;
-  --background-grey:#F6F6F6;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -18,8 +12,11 @@
   overflow: hidden;
 }
 
-ul {
+ul,
+li {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 a,
@@ -61,4 +58,25 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+body {
+  font-family: 'Khula', sans-serif;
+  // font-style: re;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
 }

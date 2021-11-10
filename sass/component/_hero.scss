@@ -1,0 +1,32 @@
+.hero {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.div-hero {
+  margin-bottom: 20px;
+
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    display: inline-block;
+    text-align: left;
+  }
+}
+
+.title-hero {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+  color: $text-black;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 47px;
+    line-height: 1.3;
+  }
+}

@@ -1,155 +1,40 @@
-body{
-font-family: 'Khula', sans-serif;
-font-style: re;
-}
-
-
-.container {
-  // width: 1200px;
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-} 
+ 
 
 .nav-list,
-.hero,
-.skills-list,
-.stars-list {
+{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .nav-list{
-border-bottom: 1px solid var(--text-grey);
+border-bottom: 1px solid $text-grey;
 }
 
-.link{
+.link {
+  padding-top: 32px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+
+  color: $text-grey;
+
+  @media screen and (min-width: 1200px) {
     padding-top: 32px;
     padding-bottom: 32px;
-    
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.2;
-
-    color: var(--text-grey);
+  }
 }
 
 .link:hover,
-.link:focus{
-    color: var(--text-black);
-}
-
-.hero{
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.div-hero{
-    display: inline-block;
-}
-
-.title-hero{
-    font-weight: 700;
-    font-size: 47px;
-    line-height: 1.3;
-    color: var(--text-black);
-}
-
-.about{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-    background-color: var(--background-grey);
-}
-
-.title{
-    font-weight: 400;
-    font-size: 34px;
-    line-height: 1.2;
-    color: var(--text-black);
-}
-
-.text{
-    padding-top: 10px;
-    font-size: 400;
-    font-size: 18;
-    line-height: 1.2;
-    color: var(--text-black);
-}
-
-.title.skills{
-    padding-top: 40px;
-}
-
-.title.skills,
-.text.skills{
-text-align: center;
-}
-
-.text.skills{
-    margin-top: 50px;
-} 
-
-.skills-list{
-    margin-top: 80px;
-}
-
-.skills-item{
-    text-align: center;
-}
-
-.skills-elements{
-    margin-top: 20px;
-}
-
-.stars-list{
-    margin-top: 20px;
-}
-
-.title-contacts{
-    padding-top: 50px;
-    text-align: center;
-}
-
-.contact-link{
-display: flex;
-align-items: center;
-}
-
-.contact-list{
-    display: flex;
-    justify-content: center;
-    
-}
-
-.contact-item:not(:first-child){
-    margin-left: 60px;
+.link:focus {
+  color: $text-black;
 }
 
 
-.contacts-icon{
-    margin-right: 20px;
-    fill: var(--text-grey);
-}
-
-.contacts-icon:hover,
-.contacts-icon:focus{
-    fill: var(--text-black);
-}
 
 .footer{
-    background-color: var(--text-black);
+    background-color: $text-black;
 }
 .text-footer{
     color: white;
@@ -219,3 +104,4 @@ align-items: center;
     display: none;
   }
 } */
+

@@ -1,0 +1,41 @@
+.skills-list {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.title.skills {
+  padding-top: 40px;
+}
+
+.title.skills,
+.text.skills {
+  text-align: center;
+}
+
+.text.skills {
+  margin-top: 50px;
+}
+
+.skills-list {
+  margin-top: 80px;
+}
+
+.skills-item {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.skills-elements {
+  margin-top: 20px;
+}
+
+.stars-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+}
