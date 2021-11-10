@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bondarenko Katerina</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,16 +26,13 @@
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-item item">
-              <a class="link current" href="#"> Home</a>
+              <a class="link" href="#"> Home</a>
             </li>
             <li class="nav-item item">
               <a class="link" href="#">About me</a>
             </li>
             <li class="nav-item item">
               <a class="link" href="#"> Skills</a>
-            </li>
-            <li class="nav-item item">
-              <a class="link" href="#"> Portfolio</a>
             </li>
             <li class="nav-item item">
               <a class="link" href="#"> Contacts</a>
@@ -40,57 +43,218 @@
     </header>
 
     <main>
+      <!-- hero -->
       <section>
         <div class="container hero">
           <div class="div-hero">
             <h1 class="title-hero">Bondarenko Katerina</h1>
-
-            <p class="text">FULL STACK JS Developer</p>
-            <h3 class="title">About me</h3>
-            <p class="text">
-              Hi, my name is Katerina, I am a future developer.
-            </p>
-            <p class="text">
-              I always dreamed of becoming a programmer and I think now is the
-              time to make my dream come true.
-            </p>
-            <p class="text">
-              I am 31 years old living in the city of Kiev and studying at GOIT
-              courses. I work as a system administrator at "Artek".
-            </p>
+            <p class="text hero">FULL STACK JS Developer</p>
           </div>
-
           <img
             class="img"
             src="./img/KaterinaBondarenko.jpg"
             alt="Bondarenko Katerina"
-            width="370"
+            width="550"
           />
         </div>
       </section>
-      <section class="about">
-        <div class="container"></div>
+      <!-- About me -->
+      <section>
+        <div class="container about">
+          <h3 class="title">About me</h3>
+          <p class="text">Hi, my name is Katerina, I am a future developer.</p>
+          <p class="text">
+            I always dreamed of becoming a programmer and I think now is the
+            time to make my dream come true.
+          </p>
+          <p class="text">
+            I am 31 years old living in the city of Kiev and studying at GOIT
+            courses.
+          </p>
+        </div>
       </section>
+      <!-- skills -->
       <section class="skills">
         <div class="container">
-          <h3 class="title">Skills</h3>
-          <p class="text">I work in such programs as</p>
-          <ul>
-            <li>Figma</li>
-            <li>Visual Studio Code</li>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
+          <h3 class="title skills">Skills</h3>
+          <p class="text skills">I work in such programs as</p>
+
+          <!-- <div class="skills-elements"> -->
+          <ul class="skills-list">
+            <li class="skills-item">
+              <svg width="89" height="88">
+                <use href="./img/symbol-defs.svg#icon-figma"></use>
+              </svg>
+              <h3 class="skills-elements">Figma</h3>
+              <ul class="stars-list">
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star-black"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </li>
+              </ul>
+            </li>
+
+            <li class="skills-item">
+              <svg width="89" height="88">
+                <use href="./img/symbol-defs.svg#icon-visualstudiocode"></use>
+              </svg>
+              <h3 class="skills-elements">Visual Studio Code</h3>
+              <ul class="stars-list">
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star-black"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star-black"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </li>
+              </ul>
+            </li>
+
+            <li class="skills-item">
+              <svg width="89" height="88">
+                <use href="./img/symbol-defs.svg#icon-html5"></use>
+              </svg>
+              <h3 class="skills-elements">HTML</h3>
+              <ul class="stars-list">
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star-black"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star-black"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </li>
+              </ul>
+            </li>
+
+            <li class="skills-item">
+              <svg width="89" height="88">
+                <use href="./img/symbol-defs.svg#icon-css3"></use>
+              </svg>
+              <h3 class="skills-elements">CSS</h3>
+              <ul class="stars-list">
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star-black"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star-black"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </li>
+              </ul>
+            </li>
+
+            <li class="skills-item">
+              <svg width="89" height="88">
+                <use href="./img/symbol-defs.svg#icon-javascript"></use>
+              </svg>
+              <h3 class="skills-elements">JavaScript</h3>
+              <ul class="stars-list">
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star-black"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star-black"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="26" height="26">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
+        <!-- </div> -->
       </section>
-      <section>
-        <div class="container">
-          <h3 class="title">Portfolio</h3>
-        </div>
-      </section>
+
       <section>
         <div class="container">
           <h3 class="title">Contacts</h3>
@@ -106,7 +270,7 @@
           </ul>
         </div>
       </section>
-      <footer></footer>
     </main>
+    <footer></footer>
   </body>
 </html>
