@@ -1,6 +1,4 @@
 .link {
-  padding-top: 32px;
-
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
@@ -20,10 +18,13 @@
 
 .title-contacts {
   padding-top: 40px;
+  margin-bottom: 20px;
+
   text-align: center;
 }
 
 .contact-link {
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
 }

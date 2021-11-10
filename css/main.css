@@ -109,7 +109,6 @@ body {
 }
 
 .link {
-  padding-top: 32px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
@@ -130,10 +129,12 @@ body {
 
 .title-contacts {
   padding-top: 40px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 .contact-link {
+  margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -186,6 +187,38 @@ body {
 .contacts-icon:hover,
 .contacts-icon:focus {
   fill: #070707;
+}
+
+.footer {
+  background-color: #070707;
+}
+
+.text-footer {
+  color: white;
+  text-align: right;
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.nav-list {
+  border-bottom: 1px solid #828282;
+}
+
+.mobile-icon {
+  fill: #828282;
+  background-color: white;
 }
 
 .hero {
@@ -242,6 +275,8 @@ body {
   padding-top: 48px;
   padding-bottom: 48px;
   padding-left: 40px;
+  background-color: white;
+  z-index: 999;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -261,6 +296,7 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
+  background: white;
 }
 
 .menu-toggle:hover, .menu-toggle:focus {
@@ -289,6 +325,7 @@ body {
   border-radius: 50%;
   width: 40px;
   height: 40px;
+  background: white;
 }
 
 .mobile-list {

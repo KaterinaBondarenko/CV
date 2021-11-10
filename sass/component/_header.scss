@@ -1,0 +1,16 @@
+.nav-list {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.nav-list {
+  border-bottom: 1px solid $text-grey;
+}
+
+.mobile-icon {
+  fill: $text-grey;
+  background-color: white;
+}
