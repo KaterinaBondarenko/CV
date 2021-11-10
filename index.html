@@ -23,19 +23,26 @@
   <body>
     <header>
       <div class="container site">
+        <!-- <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="44" height="44">
+            <use href="./img/symbol-defs.svg#icon-menu"></use>
+          </svg>
+        </button> -->
+
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-item item">
-              <a class="link" href="#"> Home</a>
+              <a class="link" href="./index.html#about">About me</a>
             </li>
             <li class="nav-item item">
-              <a class="link" href="#">About me</a>
+              <a class="link" href="./index.html#skills"> Skills</a>
             </li>
             <li class="nav-item item">
-              <a class="link" href="#"> Skills</a>
-            </li>
-            <li class="nav-item item">
-              <a class="link" href="#"> Contacts</a>
+              <a class="link" href="./index.html#contacts"> Contacts</a>
             </li>
           </ul>
         </nav>
@@ -61,6 +68,7 @@
       <!-- About me -->
       <section>
         <div class="container about">
+          <p><a name="about"></a></p>
           <h3 class="title">About me</h3>
           <p class="text">Hi, my name is Katerina, I am a future developer.</p>
           <p class="text">
@@ -76,6 +84,7 @@
       <!-- skills -->
       <section class="skills">
         <div class="container">
+          <p><a name="skills"></a></p>
           <h3 class="title skills">Skills</h3>
           <p class="text skills">I work in such programs as</p>
 
@@ -257,20 +266,71 @@
 
       <section>
         <div class="container">
-          <h3 class="title">Contacts</h3>
-          <ul>
-            <li>
-              <a class="link" href="mailto:kat9bondarenko@gmail.com">
-                kat9bondarenko@gmail.com
-              </a>
+          <p><a name="contacts"></a></p>
+          <h3 class="title-contacts title">Contacts</h3>
+
+          <ul class="contact-list">
+            <li class="contact-item item">
+              <a
+                class="contact-link link"
+                aria-label="mail"
+                href="mailto:kat9bondarenko@gmail.com"
+              >
+                <svg class="contacts-icon" width="20" height="20">
+                  <use href="./img/symbol-defs.svg#icon-mail"></use>
+                </svg>
+                kat9bondarenko@gmail.com</a
+              >
             </li>
-            <li>
-              <a class="link" href="tel:+380992754438">+38 099 275 44 38</a>
+
+            <li class="contact-item item">
+              <a
+                class="contact-link link"
+                aria-label="mail"
+                href="tel:+380992754438"
+              >
+                <svg class="contacts-icon" width="20" height="18">
+                  <use href="./img/symbol-defs.svg#icon-phone"></use>
+                </svg>
+                +38 099 275 44 38</a
+              >
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="container footer">
+        <p class="text-footer text">performed by Bondarenko Katerina</p>
+      </div>
+    </footer>
+
+    <!-- <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle button js-close-menu">
+        <svg class="mobile-icon" width="44" height="44">
+          <use href="./img/symbol-defs.svg#icon-close_menu"></use>
+        </svg>
+      </button>
+
+      <nav class="mobile-nav">
+        <ul class="mobile-list">
+          <li class="mobile-item">
+            <a class="mobile-link current-mobile" href="#"> Home</a>
+          </li>
+          <li class="mobile-item">
+            <a class="mobile-link" href="#">About me</a>
+          </li>
+          <li class="mobile-item">
+            <a class="mobile-link" href="#"> Skills</a>
+          </li>
+          <li class="mobile-item">
+            <a class="mobile-link" href="#"> Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script> -->
   </body>
 </html>
